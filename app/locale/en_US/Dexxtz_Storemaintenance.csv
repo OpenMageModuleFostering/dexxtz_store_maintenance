@@ -4,6 +4,8 @@
 "Enables or disables the maintenance page","Enables or disables the maintenance page"
 "Title of page","Title of page"
 "Will be added to the html title tag","Will be added to the html title tag"
+"CSS","CSS"
+"Example: css/styles.css","Exemplo: css/styles.css"
 "Store Maintenance","Store Maintenance"
 "Select the static block","Select the static block"
 "It is the maintenance page to be displayed","It is the maintenance page to be displayed"

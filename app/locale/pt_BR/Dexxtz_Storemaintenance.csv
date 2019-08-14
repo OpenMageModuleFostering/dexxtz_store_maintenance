@@ -4,6 +4,8 @@
 "Enables or disables the maintenance page","Ativa ou desativa a página de manutenção"
 "Title of page","Título da página"
 "Will be added to the html title tag","Será adicionado a tag title do html"
+"CSS","CSS"
+"Example: css/styles.css","Exemplo: css/styles.css"
 "Store Maintenance","Loja em Manutenção"
 "Select the static block","Selecione um bloco estático"
 "It is the maintenance page to be displayed","É a página que será exibida em manutenção"

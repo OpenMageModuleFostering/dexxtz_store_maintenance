@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Dexxtz_Store_maintenance</name>
-    <version>1.0.3</version>
+    <version>1.1.0</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/apachepl.php">Apache Software License</license>
     <channel>community</channel>
@@ -15,10 +15,10 @@ The module saves access logs, controls access by date, ip or administrator user.
 Deixe sua loja em manuten&#xE7;&#xE3;o para seus clientes, enquanto voc&#xEA; trabalha melhorando ela ou desenvolvendo sua loja.&lt;br /&gt;&#xD;
 Seus clientes n&#xE3;o v&#xE3;o te atrapalhar ou visualizar erros em sua loja.&lt;br /&gt;&#xD;
 O m&#xF3;dulo armazena logs de acesso, controla o acesso por data, ip ou por usu&#xE1;rio administrador.</description>
-    <notes>Fixed installation / Corrigido instala&#xE7;&#xE3;o</notes>
+    <notes>Update / Atualização</notes>
     <authors><author><name>Dexxtz</name><user>Dexxtz</user><email>dexxtz@gmail.com</email></author></authors>
-    <date>2014-08-21</date>
-    <time>18:00:00</time>
+    <date>2014-08-22</date>
+    <time>12:00:00</time>
     <contents>
 		<target name="magecommunity">
 			<dir name="Dexxtz">

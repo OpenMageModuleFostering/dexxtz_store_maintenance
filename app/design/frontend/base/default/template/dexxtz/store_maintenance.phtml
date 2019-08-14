@@ -12,17 +12,20 @@
 $page = Mage::getSingleton('Mage_Page_Block_Html');
 $head = Mage::getSingleton('Mage_Page_Block_Html_Head');
 $title = (Mage::getStoreConfig('storemaintenance/dexxtz/title')) ? Mage::getStoreConfig('storemaintenance/dexxtz/title') : 'Store Maintenance';
+$css = Mage::getStoreConfig('storemaintenance/dexxtz/css');
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $page->getLang();?>" lang="<?php echo $page->getLang();?>">
+<head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title><?php echo $this->__($title);?></title>
 <meta name="description" content="<?php echo htmlspecialchars($head->getDescription()) ?>" />
 <meta name="keywords" content="<?php echo htmlspecialchars($head->getKeywords()) ?>" />
 <meta name="robots" content="<?php echo htmlspecialchars($head->getRobots()) ?>" />
+<?php if ($css) { echo '<link type="text/css" rel="stylesheet" href="' . $this->getSkinUrl($css) . '" />' . "\n"; } ?>
 <link rel="icon" href="<?php echo $head->getFaviconFile();?>" type="image/x-icon" />
 <link rel="shortcut icon" href="<?php echo $head->getFaviconFile();?>" type="image/x-icon" />
-<head>
+</head>
 <body>
 <?php
 	// capturing the identification of the selected static block
