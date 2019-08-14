@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * Copyright [2014] [Dexxtz]
+ *
+ * @package   Dexxtz_StoreMaintenance
+ * @author    Dexxtz
+ * @license   http://www.apache.org/licenses/LICENSE-2.0
+ */
+ -->
+<config>
+    <modules>
+        <Dexxtz_Storemaintenance>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Dexxtz_Storemaintenance>
+    </modules>
+</config> 

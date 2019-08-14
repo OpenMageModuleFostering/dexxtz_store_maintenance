@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Dexxtz_Store_maintenance",
+    "type": "magento-module",
+    "license": "Apache-Software-License",
+    "homepage": "",
+    "description": "maintenance, manutenção, store maintenance, loja manutenção, store in maintenance, loja em manutenção, dexxtz",
+    "authors": [
+    {
+        "name": "Dexxtz",
+        "email": "dexxtz@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

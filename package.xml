@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+    <name>Dexxtz_Store_maintenance</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/apachepl.php">Apache Software License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>maintenance, manuten&#xE7;&#xE3;o, store maintenance, loja manuten&#xE7;&#xE3;o, store in maintenance, loja em manuten&#xE7;&#xE3;o, dexxtz</summary>
+    <description>&lt;strong&gt;English&lt;/strong&gt;&lt;br /&gt;&#xD;
+Leave your store in maintenance for their customers, while you work in her improving or in their developing their store.&lt;br /&gt;&#xD;
+Your customers will not slow you down or see errors in your store.&lt;br /&gt;&#xD;
+The module saves access logs, controls access by date, ip or administrator user.&#xD;
+&lt;hr&gt;&#xD;
+&lt;strong&gt;Portuguese&lt;/strong&gt;&lt;br /&gt;&#xD;
+Deixe sua loja em manuten&#xE7;&#xE3;o para seus clientes, enquanto voc&#xEA; trabalha melhorando ela ou desenvolvendo sua loja.&lt;br /&gt;&#xD;
+Seus clientes n&#xE3;o v&#xE3;o te atrapalhar ou visualizar erros em sua loja.&lt;br /&gt;&#xD;
+O m&#xF3;dulo armazena logs de acesso, controla o acesso por data, ip ou por usu&#xE1;rio administrador.</description>
+    <notes>Module developed / M&#xF3;dulo desenvolvido</notes>
+    <authors><author><name>Dexxtz</name><user>Dexxtz</user><email>dexxtz@gmail.com</email></author></authors>
+    <date>2014-08-15</date>
+    <time>22:09:44</time>
+    <contents><target name="magecommunity"><dir name="."><file name="Dexxtz" hash=""/></dir></target><target name="mageetc"><dir name="modules"><file name="Dexxtz_Storemaintenance.xml" hash="deba2af2c0241c2500b48bc810909d35"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><file name="dexxtz" hash=""/></dir></dir></dir></dir></target><target name="magelocale"><dir name="pt_BR"><file name="Dexxtz_Storemaintenance.csv" hash="6b93ceaef205970438d41dc3b7860b88"/></dir><dir name="en_US"><file name="Dexxtz_Storemaintenance.csv" hash=""/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>10.0.0</max></php></required></dependencies>
+</package>
