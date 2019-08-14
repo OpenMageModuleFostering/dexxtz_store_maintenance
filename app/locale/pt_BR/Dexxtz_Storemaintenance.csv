@@ -14,7 +14,7 @@
 "m/d/Y - After the date the frontend can be viewed","m/d/Y - Após a data o frontend pode ser visualizado"
 "Your current IP is","Seu IP atual é"
 "IP Adresses","Endereços de IP"
-"IP addresses permetidos pair to access the frontend","Endereços de IPs permetidos de acesso ao frontend"
+"IP addresses allowed pair to access the frontend","Endereços de IPs permetidos de acesso ao frontend"
 "add IP","Adicionar IP"
 "Enable log of attempt of access","Ativar log de tentativa de ​​acesso"
 "Saves the ip, date and page attempt of access in log","Salva o ip, data e página da tentativa de acesso no log"

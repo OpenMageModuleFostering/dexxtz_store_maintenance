@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <package>
     <name>Dexxtz_Store_maintenance</name>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/apachepl.php">Apache Software License</license>
     <channel>community</channel>
     <extends/>
-    <summary>maintenance, store maintenance, store in maintenance, dexxtz, manuten&#xE7;&#xE3;o, loja manuten&#xE7;&#xE3;o,  loja em manuten&#xE7;&#xE3;o</summary>
+    <summary>Adds a maintenance page in your store</summary>
     <description>&lt;strong&gt;English&lt;/strong&gt;&lt;br /&gt;&#xD;
 Leave your store in maintenance for their customers, while you work in her improving or in their developing their store.&lt;br /&gt;&#xD;
 Your customers will not slow you down or see errors in your store.&lt;br /&gt;&#xD;
@@ -17,9 +17,58 @@ Seus clientes n&#xE3;o v&#xE3;o te atrapalhar ou visualizar erros em sua loja.&l
 O m&#xF3;dulo armazena logs de acesso, controla o acesso por data, ip ou por usu&#xE1;rio administrador.</description>
     <notes>Fixed installation / Corrigido instala&#xE7;&#xE3;o</notes>
     <authors><author><name>Dexxtz</name><user>Dexxtz</user><email>dexxtz@gmail.com</email></author></authors>
-    <date>2014-08-16</date>
-    <time>00:13:52</time>
-    <contents><target name="magecommunity"><dir name="Dexxtz"><dir name="Storemaintenance"><dir name="Block"><file name="EndDate.php" hash="60bd71dace9bfa6cdd14f09e88f72634"/><file name="Ip.php" hash="818c18d5fa9c6526a46d699f1b1a89e9"/><file name="Ipgrid.php" hash="0f29268d966d16d6e749d8a0a1c2fa51"/><file name="Iptable.php" hash="7e4c9f0db09ef4d604773db2eac815c1"/></dir><dir name="Helper"><file name="Data.php" hash="ff90181c672edbcbf79f6adbcef70422"/></dir><dir name="Model"><file name="BlockStatic.php" hash="351a05ac0c594f04a6e75d3e6c646dab"/><file name="Observer.php" hash="cf718b26a3bfae1a032b22ba8c8f080d"/></dir><dir name="etc"><file name="config.xml" hash="a4fe892a7d32c508f00360a617d8cf0b"/><file name="system.xml" hash="e1e8266f5e9c634bb24f45d508793fc4"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Dexxtz_Storemaintenance.xml" hash="deba2af2c0241c2500b48bc810909d35"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="dexxtz"><file name="store_maintenance.phtml" hash="ceab1b82db46bf62fbe674c6cf95ca72"/></dir></dir></dir></dir></dir></target><target name="magelocale"><dir><dir name="pt_BR"><file name="Dexxtz_Storemaintenance.csv" hash="6b93ceaef205970438d41dc3b7860b88"/></dir></dir></target></contents>
+    <date>2014-08-21</date>
+    <time>18:00:00</time>
+    <contents>
+		<target name="magecommunity">
+			<dir name="Dexxtz">
+				<dir name="Storemaintenance">
+					<dir name="Block">
+						<file name="Enddate.php" hash="60bd71dace9bfa6cdd14f09e88f72634"/>
+						<file name="Ip.php" hash="818c18d5fa9c6526a46d699f1b1a89e9"/>
+						<file name="Ipgrid.php" hash="0f29268d966d16d6e749d8a0a1c2fa51"/>
+					</dir>
+					<dir name="Helper">
+						<file name="Data.php" hash="ff90181c672edbcbf79f6adbcef70422"/>
+					</dir>
+					<dir name="Model">
+						<file name="Blockstatic.php" hash="351a05ac0c594f04a6e75d3e6c646dab"/>
+						<file name="Observer.php" hash="cf718b26a3bfae1a032b22ba8c8f080d"/>
+					</dir>
+					<dir name="etc">
+						<file name="config.xml" hash="a4fe892a7d32c508f00360a617d8cf0b"/>
+						<file name="system.xml" hash="e1e8266f5e9c634bb24f45d508793fc4"/>
+					</dir>
+				</dir>
+			</dir>
+		</target>
+		<target name="mageetc">
+			<dir name="modules">
+				<file name="Dexxtz_Storemaintenance.xml" hash="deba2af2c0241c2500b48bc810909d35"/>
+			</dir>
+		</target>
+		<target name="magedesign">
+			<dir name="frontend">
+				<dir name="base">
+					<dir name="default">
+						<dir name="template">
+							<dir name="dexxtz">
+								<file name="store_maintenance.phtml" hash="ceab1b82db46bf62fbe674c6cf95ca72"/>
+							</dir>
+						</dir>
+					</dir>
+				</dir>
+			</dir>
+		</target>
+		<target name="magelocale">
+			<dir name="pt_BR">
+				<file name="Dexxtz_Storemaintenance.csv" hash="6b93ceaef205970438d41dc3b7860b88"/>
+			</dir>
+			<dir name="en_US">
+				<file name="Dexxtz_Storemaintenance.csv" hash="6b93ceaef205970438d41dc3b7860b88"/>
+			</dir>
+		</target>
+	</contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>10.0.0</max></php></required></dependencies>
 </package>

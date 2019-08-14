@@ -3,7 +3,7 @@
     "type": "magento-module",
     "license": "Apache-Software-License",
     "homepage": "",
-    "description": "maintenance, store maintenance, store in maintenance, dexxtz, manutenção, loja manutenção,  loja em manutenção",
+    "description": "Adds a maintenance page in your store",
     "authors": [
     {
         "name": "Dexxtz",
