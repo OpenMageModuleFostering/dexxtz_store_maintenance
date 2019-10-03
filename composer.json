@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Dexxtz_Store_maintenance",
+    "name": "OpenMageModuleFostering\/Dexxtz_Store_maintenance",
     "type": "magento-module",
     "license": "Apache-Software-License",
     "homepage": "",
     "description": "Adds a maintenance page in your store",
     "authors": [
-    {
-        "name": "Dexxtz",
-        "email": "dexxtz@gmail.com"
-    }
-],
+        {
+            "name": "Dexxtz",
+            "email": "dexxtz@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
